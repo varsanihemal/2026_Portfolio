@@ -22,7 +22,7 @@ const Contact = () => {
         </h4>
         <h4 className="mt-2 leading-[20px] text-sm md:text-base">
           <span className="text-[16px] md:text-[19px] font-bold">Phone:</span>{" "}
-          +91 (431) 668-0244
+          +1 (431) 668-0244
         </h4>
       </div>
       <div className="flex flex-col md:flex-row gap-3 md:gap-3 items-start md:items-center mt-6 md:mt-8 mb-16 md:mb-20">
