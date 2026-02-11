@@ -3,7 +3,7 @@ import { socialIcons } from "../data";
 
 const Contact = () => {
   return (
-    <section className="mt-16 md:mt-28 pl-[25px] pr-[25px] md:pl-35">
+    <section id="contact" className="mt-16 md:mt-28 pl-[25px] pr-[25px] md:pl-35">
       <div>
         <h1 className="text-[32px] md:text-5xl lg:text-6xl font-bold text-black mb-3 md:mb-4">
           Let's talk for

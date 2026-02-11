@@ -3,7 +3,7 @@ import { projects } from "../data";
 
 const Projects = () => {
   return (
-    <section className="bg-black text-white py-24 px-4 md:px-8 lg:px-16">
+    <section className="bg-black text-white py-24 px-4 md:px-8 lg:px-16" id="projects">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
@@ -80,7 +80,6 @@ const Projects = () => {
                       ))}
                     </div>
 
-                    {/* Links */}
                     {/* Links */}
                     <div className="flex gap-4 pt-4">
                       {project.demoLink && (

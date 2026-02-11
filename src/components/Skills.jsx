@@ -12,7 +12,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="skills" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className="text-5xl font-bold text-center mb-16">
           My <span className="font-bold">Skills</span>

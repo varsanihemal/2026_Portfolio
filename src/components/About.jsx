@@ -3,7 +3,7 @@ import { images } from "../data";
 
 const About = () => {
   return (
-    <section className="py-10 sm:py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-16 bg-white">
+    <section id="about" className="py-10 sm:py-16 md:py-24 px-4 sm:px-6 md:px-8 lg:px-16 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12 md:mb-16">
@@ -43,7 +43,7 @@ const About = () => {
               </p>
               <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
                 I gained hands-on experience as a Full Stack Developer at
-                Elecvent59, a startup where I worked on real-world projects and
+                eleven59, a startup where I worked on real-world projects and
                 collaborated with a dynamic team. Currently, I'm expanding my
                 skill set by diving deep into Java and exploring Data Structures
                 and Algorithms to become a more versatile developer. I believe
