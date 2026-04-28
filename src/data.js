@@ -153,6 +153,20 @@ export const experience = [
 export const projects = [
   {
     id: 1,
+    title: "FinCoach AI",
+    image: null, // add a screenshot of the app here
+    technologies: ["Next.js 15", "Gemini AI", "Prisma", "Supabase", "Clerk", "Inngest", "Resend"],
+    description: [
+      "Built a full-stack AI-powered personal finance app with multi-account tracking, budget management, and income vs expense analytics with real-time balance updates",
+      "Integrated Gemini AI as a financial chat assistant that injects live user data as context on every message — enabling personalized advice like affordability checks based on real account balances and spending history",
+      "Implemented AI receipt scanner using Gemini Vision that extracts amount, category, date and description from uploaded photos and auto-fills transaction forms",
+      "Engineered automated email infrastructure using Inngest cron jobs and Resend — daily budget alerts at 80% threshold and monthly financial insight reports delivered on the 1st of each month"
+    ],
+    demoLink: "https://fincoach-ai-xi.vercel.app/",
+    codeLink: "https://github.com/varsanihemal/fincoach"
+  },
+  {
+    id: 2,
     title: "Interactive 3D Portfolio",
     image: profileImg,
     technologies: ["React", "Three.js", "Tailwind CSS", "TypeScript"],
@@ -165,7 +179,7 @@ export const projects = [
     codeLink: "https://github.com/varsanihemal/Portfolio"
   },
   {
-    id: 2,
+    id: 3,
     title: "PixelPulse Store",
     image: pixelImg,
     technologies: ["PHP", "MySQL", "PostgreSQL"],
@@ -177,7 +191,7 @@ export const projects = [
     codeLink: "https://github.com/varsanihemal/PixelPulse"
   },
   {
-    id: 3,
+    id: 4,
     title: "Sneakers E-Commerce Store",
     image: sneakersImg,
     technologies: ["Ruby on Rails", "Stripe", "PostgreSQL"],
