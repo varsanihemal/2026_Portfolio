@@ -23,6 +23,7 @@ import aboutImg from './assets/about.png';
 import pixelImg from './assets/pixel.jpg';
 import sneakersImg from './assets/sneakers.jpg';
 import profileImg from './assets/3dprofile.png';
+import fincoachImg from './assets/fincoach.png';
 
 // SVG Icons - Technology Stack
 import iconExpressSvg from './assets/icon-express.svg';
@@ -56,7 +57,8 @@ export const images = {
   // Project images
   pixelImg: pixelImg,
   sneakersImg: sneakersImg,
-  profileImg: profileImg
+  profileImg: profileImg,
+  fincoachImg: fincoachImg
 };
 
 export const socialIcons = {
@@ -154,7 +156,7 @@ export const projects = [
   {
     id: 1,
     title: "FinCoach AI",
-    image: null, // add a screenshot of the app here
+    image: fincoachImg, // add a screenshot of the app here
     technologies: ["Next.js 15", "Gemini AI", "Prisma", "Supabase", "Clerk", "Inngest", "Resend"],
     description: [
       "Built a full-stack AI-powered personal finance app with multi-account tracking, budget management, and income vs expense analytics with real-time balance updates",
